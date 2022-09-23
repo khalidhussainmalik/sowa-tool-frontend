@@ -94,7 +94,7 @@
     font-weight: 500;
 }
 .nav_down a:hover{
-    color: blue;
+    color: #428bca;
 }
 .nav_down ul{
     display: flex;

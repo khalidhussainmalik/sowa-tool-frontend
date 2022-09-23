@@ -1,0 +1,26 @@
+.products_categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.products_categories h1{
+    padding: 15px;
+    font-size: 36px;
+    color: #454545;
+    line-height: 1.35;
+    letter-spacing: -1.5px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.products{
+    margin: 5px;
+    /* margin-top: 50px; */
+    width: 180px;
+    text-align: center;
+}
+
+.products img{
+    border: 1px solid #ccc;
+    width: 170px;
+}
