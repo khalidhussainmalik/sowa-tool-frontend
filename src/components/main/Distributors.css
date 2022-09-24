@@ -1,0 +1,10 @@
+.container{
+    margin-left: 60px;
+}
+
+.image-container{
+    margin: 50px 100px;
+}
+.image-container img{
+    width: 20%;
+}

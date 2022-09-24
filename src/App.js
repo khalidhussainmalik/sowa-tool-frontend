@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Navbar from './components/header/Navbar';
 import MainBody from './components/main/MainBody'
@@ -9,6 +10,7 @@ function App() {
     <Navbar/>
     <Header/>
     <MainBody />
+    <Footer />
     </>
   );
 }
