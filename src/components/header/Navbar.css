@@ -59,12 +59,11 @@
     outline: none;
 }
 
-.search ul{
+/* .search ul{
     display: flex;
-}
+} */
 
-.search ul li {
-    list-style: none;
+.search .notification span {
     padding: 7px;
 }
 
@@ -88,7 +87,7 @@
     padding: 10px;
     padding-top: 30px;
 }
-.nav_down a{
+.nav_down .link{
     text-decoration: none;
     color: #000;
     font-weight: 500;

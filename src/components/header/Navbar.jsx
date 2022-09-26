@@ -11,6 +11,7 @@ import {
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 import country from "./images/countrycanada.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -26,28 +27,33 @@ function Navbar() {
               <input />
               <FontAwesomeIcon icon={faSearch} id="search_icon" />
             </div>
-            <ul>
-              <li>
-                <FontAwesomeIcon icon={faUserFriends} />
-              </li>
-              <li>Login</li>
-              <li>
+            <div className="notification">
+              <span><FontAwesomeIcon icon={faUserFriends} /></span>
+              <span>Login</span>
+              <span>
+
                 <FontAwesomeIcon icon={faSliders} />
-              </li>
-              <li>
+              </span>
+              <span>
                 <FontAwesomeIcon icon={faHeart} />
-              </li>
-              <li>
+
+              </span>
+
+              <span>
                 <FontAwesomeIcon icon={faShoppingBag} />
-              </li>
-              <li>0</li>
-              <li>
+
+              </span>
+              <span>0</span>
+              <span>
+
                 <FontAwesomeIcon icon={faAlignRight} />
-              </li>
-              <li>
+              </span>
+              <span>
+
                 <img src={country} alt="country" />
-              </li>
-            </ul>
+              </span>
+            </div>
+
           </div>
           <div className="contact">
             <p>
@@ -59,30 +65,30 @@ function Navbar() {
       <div className="nav_down">
         <ul>
           <li>
-            <a href="">Shop All Products</a>
+          <Link className="link" to="/shop-all-products">Shop All Products</Link>
           </li>
           <li>
-            <a href="">Shop By Brand</a>
+          <Link className="link" to="/shop-by-brand">Shop By Brand</Link>
           </li>
           <li>
-            <a href="">Download Center</a>
+            <Link className="link" to="/download-center">Download Center</Link>
           </li>
           <li>
-            <a href="">Contact Us</a>
+            <Link className="link" to="/contact-us">Contact Us</Link>
           </li>
           <li>
-            <a href="">About Us</a>
+            <Link className="link" to="/about-us">About Us</Link>
           </li>
           <li>
-            <a href="">Careers</a>
+            <Link className="link" to="/careers">Careers</Link>
           </li>
           <li>
-            <a href="">Support</a>
+            <Link className="link" to="/support">Support</Link>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="">Quick Order</a>
+            <Link className="link" to="/quick-order">Quick Order</Link>
           </li>
         </ul>
       </div>
