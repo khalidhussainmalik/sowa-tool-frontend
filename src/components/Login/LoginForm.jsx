@@ -17,7 +17,7 @@ function LoginForm({ Login, error }) {
         
         <div className="form-group">
           <label htmlFor="name">Name:</label>
-          <input
+          <input placeholder="Name"
             type="text"
             name="name"
             id="name"
@@ -27,7 +27,7 @@ function LoginForm({ Login, error }) {
         </div>
         <div className="form-group">
           <label htmlFor="email">Email:</label>
-          <input
+          <input placeholder="someone@someone.com"
             type="email"
             name="email"
             id="email"
@@ -37,7 +37,7 @@ function LoginForm({ Login, error }) {
         </div>
         <div className="form-group">
           <label htmlFor="password">Password:</label>
-          <input
+          <input placeholder="Password"
             type="password"
             name="password"
             id="password"
