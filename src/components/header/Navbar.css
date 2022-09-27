@@ -38,6 +38,8 @@
 }
 
 .search .search_icon{
+    display: flex;
+    align-items: center;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -58,10 +60,6 @@
 .search input:focus{
     outline: none;
 }
-
-/* .search ul{
-    display: flex;
-} */
 
 .search .notification span {
     padding: 7px;
